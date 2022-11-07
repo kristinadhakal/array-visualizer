@@ -7,4 +7,11 @@ body {
     width: 600px;
     height: 400px;
     margin: auto;
+    display: flex;
+}
+
+#container div{
+    background-color:pink;
+    border: 1px solid grey;
+    flex: 1;
 }
