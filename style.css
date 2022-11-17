@@ -4,10 +4,11 @@ body {
 
 #container{
     border: 1px solid grey;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
     margin: auto;
     display: flex;
+    align-items:flex-end;
 }
 
 #container div{
