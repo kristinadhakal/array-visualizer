@@ -26,6 +26,12 @@ function drawArray() {
 document.addEventListener("keydown", keydownHandler);
 
 function keydownHandler(event){
-  console.log(event.keyCode);
+// Modify the array
+for (let i = 0; i < myData.length; i++) {
+    myData[i] = 400;
+
+  }
+  // Redraw the array 
+drawArray()
 
 }
